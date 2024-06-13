@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "pattern": [
+    "#/#",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "/": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "*": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "revivaltotem:totem_of_revival",
+    "count": 1
+  }
+}
