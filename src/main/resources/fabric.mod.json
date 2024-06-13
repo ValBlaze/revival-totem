@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "hardcorerevival",
+	"id": "revivaltotem",
 	"version": "${version}",
 	"name": "Hardcore Revival",
-	"description": "Revive your friends in hardcore.",
+	"description": "Adds a craftable totem of revival to revive your friends in hardcore mode when eaten",
 	"authors": [
-		"Me!"
+		"ValBlaze"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,17 +17,8 @@
 	"entrypoints": {
 		"main": [
           "net.valblaze.revivaltotem.RevivalTotem"
-		],
-		"client": [
-			"net.valblaze.revivaltotem.RevivalTotemClient"
-		],
-		"fabric-datagen": [
-			"net.valblaze.revivaltotem.RevivalTotemDataGenerator"
 		]
 	},
-	"mixins": [
-		"revival-totem.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.20.1",
