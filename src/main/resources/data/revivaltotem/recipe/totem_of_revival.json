@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "combat",
   "pattern": [
     "#/#",
     "#*#",
@@ -18,7 +17,7 @@
     }
   },
   "result": {
-    "item": "revivaltotem:totem_of_revival",
+    "id": "revivaltotem:totem_of_revival",
     "count": 1
   }
 }

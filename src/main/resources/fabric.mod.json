@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "revivaltotem",
 	"version": "${version}",
-	"name": "Hardcore Revival",
+	"name": "Revival Totem",
 	"description": "Adds a craftable totem of revival to revive your friends in hardcore mode when eaten",
 	"authors": [
 		"ValBlaze"
@@ -21,11 +21,8 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

@@ -1,8 +1,8 @@
 package net.valblaze.revivaltotem.item;
 
+import net.minecraft.component.type.FoodComponent;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.FoodComponent;
 
 public class ModFoodComponents {
     public static final FoodComponent TOTEM_OF_REVIVAL = new FoodComponent.Builder()
