@@ -6,6 +6,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.valblaze.revivaltotem.RevivalTotem;
@@ -15,8 +17,9 @@ public class ModItems {
 
     public static final Item TOTEM_OF_REVIVAL = registerItem("totem_of_revival", new TotemOfRevivalItem(new Item.Settings()
             .maxCount(1)
-            .food(ModFoodComponents.TOTEM_OF_REVIVAL)
+            .food(ModFoodComponents.TOTEM_OF_REVIVAL, ModFoodComponents.TOTEM_OF_REVIVAL_EFFECT)
             .rarity(Rarity.EPIC)
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RevivalTotem.MOD_ID, "totem_of_revival")))
     ));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
