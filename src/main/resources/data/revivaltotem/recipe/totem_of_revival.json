@@ -1,21 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#/#",
-    "#*#",
-    "###"
-  ],
+  "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:blackstone"
-    },
-    "/": {
-      "item": "minecraft:enchanted_golden_apple"
-    },
-    "*": {
-      "item": "minecraft:totem_of_undying"
-    }
+    "B": "minecraft:blackstone",
+    "E": "minecraft:enchanted_golden_apple",
+    "T": "minecraft:totem_of_undying"
   },
+  "pattern": [
+    "BEB",
+    "BTB",
+    "BBB"
+  ],
   "result": {
     "id": "revivaltotem:totem_of_revival",
     "count": 1
